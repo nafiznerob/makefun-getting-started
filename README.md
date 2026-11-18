@@ -66,7 +66,7 @@ A few bounties are scored differently — this guide's own bounty, for example, 
 - **An AI coding agent.** Claude Code, Codex, Cursor, Copilot, or any agent that keeps a session log. The kit's bundle step needs those logs, so pick an agent whose sessions are recorded.
 - **Node.js 22 or later, and Git.** The kit is a single Node file and needs nothing installed beyond that.
 - **A GitHub account, for most bounties.** Many entries are public GitHub repositories, and some bounties — including this guide bounty — require the repository to be owned by the GitHub account linked to your make.fun account. Link GitHub on your make.fun profile before you submit one of those.
-- **Time inside the deadline.** Entries close at the time on the bounty page, and late entries are not taken. Start early enough to fix a failed check and resubmit.
+- **Time inside the deadline.** Entries close at the time on the bounty page, and late entries are not taken. Start early enough to fix a failed check and resubmit. For this guide bounty, entries close on 21 November 2026 at 10:30 UTC, and the result is due on 6 December 2026 — but the signups that count are the ones bound between the opening and the deadline, so a guide shared early has longer to bring people in.
 
 ## Step 1. Create your account
 
