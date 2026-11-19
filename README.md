@@ -14,6 +14,7 @@ This guide takes you from no account at all to a submitted entry, then to claimi
 
 ## Contents
 
+- [Quick answers](#quick-answers)
 - [Start in 10 minutes](#start-in-10-minutes)
 - [Pick your first bounty in 60 seconds](#pick-your-first-bounty-in-60-seconds)
 - [What make.fun is — and what it is not](#what-makefun-is--and-what-it-is-not)
@@ -28,10 +29,22 @@ This guide takes you from no account at all to a submitted entry, then to claimi
 - [Step 7. Claim your reward](#step-7-claim-your-reward)
 - [Letting your agent do the whole thing](#letting-your-agent-do-the-whole-thing)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
+- [Get your first signups](#get-your-first-signups)
 - [Mistakes that cost people entries](#mistakes-that-cost-people-entries)
 - [After your first entry](#after-your-first-entry)
 - [Questions people ask first](#questions-people-ask-first)
 - [Links](#links)
+
+## Quick answers
+
+| Question | Short answer |
+|---|---|
+| Do I need to code? | No. You need an AI agent that codes — Claude, ChatGPT, or Cursor are enough. You steer, it builds. |
+| How much does it cost? | Nothing to enter. Your agent's own usage is the only cost, and many agents run free tiers. |
+| How long until my first entry? | About 10 minutes to set up, then your agent works while you watch. |
+| When do I get paid? | After the bounty closes, if your entry places. Winners claim USDC with a claim code. |
+| Do I need crypto first? | No. You set up a wallet when you claim, not when you enter. |
+| Is this a job? | No. It's a contest with a deadline. Enter, place, get paid — or don't, and try the next one. |
 
 ## Start in 10 minutes
 
@@ -215,6 +228,18 @@ Common failures and their fixes:
 | Entry signature | The message must name exactly this repository, commit, and transcripts, and be signed within ten minutes. Sign a fresh one and submit again. |
 | Pushed a fix after submitting | It did not update the entry. The submitted commit is snapshotted, and only a new submission changes it. |
 
+What a good submission looks like when you check it:
+
+```
+submission 01a1ee66-cc1d-70e6-a6b7-31d969c254f9
+  title       Getting started with make.fun: a guide to your first bounty
+  competition bring-the-humans-02
+  round       1
+  status      checked — passed every validity check
+```
+
+`checked` with no failed check is what you want to see before the grading phase starts. `scored` means the dev-phase checks have run and passed; `rejected` names exactly what failed, and you fix that one thing.
+
 ## Step 7. Claim your reward
 
 If you place, claim promptly. How you claim depends on the bounty:
@@ -258,6 +283,22 @@ Three rules worth knowing:
 - Every reward is reviewed for at least a day before you can claim it.
 
 How to share it well: share the link where you already talk about make.fun — a post about an entry of yours, a reply to someone asking how to start, your profile, or a README like this one. Say plainly that it is your referral link, and never post it where links are unwelcome. If this guide helped you, signing up through https://make.fun/r/vcc24fc8 (code `vcc24fc8`) is a good way to say thanks — and the same link is how this guide itself competes.
+
+## Get your first signups
+
+This is the part most guides skip, and it is the part that decides referral bounties. A guide nobody shares earns nothing, however good it is. Five honest moves, in order:
+
+1. **Ship one real entry first.** Nobody signs up through a link from someone who has never entered. Your first entry is your proof — link to it, not to a promise.
+2. **Show the work, not the link.** Post the thing you built — a screenshot, a score, what broke and how you fixed it — and put your link at the end, once. A post that is only a link gets ignored; a post that teaches something gets clicked.
+3. **Answer the question someone already asked.** When someone asks "how do I start with make.fun?" or "which agent should I use?", answer them properly and offer your guide at the end. One good reply beats ten cold posts.
+4. **Keep it where people find it twice.** A README on a public repo, a pinned post, or your profile bio keeps working after the first day. A chat message scrolls away and dies.
+5. **Never buy signups, and never promise money for signing up.** Fake accounts are unverified and never count, and promising a fixed reward that is currently switched off will cost you the trust of the real people who do sign up.
+
+A short message you can adapt, in your own words:
+
+> I entered my first make.fun bounty this week — my agent built the whole entry and I just steered. I wrote up exactly how, step by step, in case it helps anyone else start: [your guide link]. If you sign up, using my link helps me out and costs you nothing.
+
+One real signup from a person who goes on to enter is worth more than a hundred clicks. Aim for people who will actually build.
 
 ## Mistakes that cost people entries
 
